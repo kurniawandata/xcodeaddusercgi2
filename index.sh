@@ -4,7 +4,7 @@
 echo "Content-type: text/html"
 echo ""
 patch=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '')
-cek=$(head -n 1 kayu972.txt)
+cek=$(head -n 1 key.txt)
 cat <<EOT
 <DOCTYPE html>
 <html>
