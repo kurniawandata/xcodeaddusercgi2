@@ -47,8 +47,6 @@ cat <<EOT
 Username : $username <br />
 Password : $password<br />
 <br />
-Server ini ada di kantor PT. Kode Keamanan Indonesia<br />
-<br />
 Untuk akses terminal linux : http://(ip):4200<br />
 Untuk akses untuk folder web server : /var/www/html/$username<br />
 Untuk akses untuk alamat web kamu : http://(ip)/$username<br />
