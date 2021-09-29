@@ -5,7 +5,7 @@ XcodeAddUserCgi2 adalah program untuk menambah user linux melalui web dengan cgi
 
 XcodeAddUserCgi2 adalah program untuk menambah user linux melalui web dengan cgi-bin sehingga server dedicated / VPS bisa diakses melalui terminal dengan proteksi catpcha gambar.
 
-XcodeAddUser Version 2.0
+XcodeAddUser Version 2.1
 
 XcodeAddUserCgi dirancang untuk ubuntu server
 
