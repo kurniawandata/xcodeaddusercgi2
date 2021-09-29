@@ -4,8 +4,17 @@
 echo "Content-type: text/html"
 echo ""
 patch=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '')
-cek=$(head -n 1 key.txt)
-cat <<EOT
+convert \
+    -size 225x100 \
+    xc:lightblue \
+    -font Bookman-DemiItalic \
+    -pointsize 18 \
+    -fill blue \
+    -gravity center \
+    -draw "text 0,0 '$(cat key.txt)'" \
+    image.png
+convert image.png -background white -wave 4x55 image.png
+sudo cp image.png /var/www/html
 <DOCTYPE html>
 <html>
 <head>
