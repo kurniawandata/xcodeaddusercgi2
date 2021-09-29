@@ -21,6 +21,7 @@ convert \
     -gravity center \
     -draw "text 0,0 $acak" \
     image.png
+convert image.png -background white -wave 4x55 image.png
 sudo cp /usr/lib/cgi-bin/image.png /var/www/html
 if [[ "${username}" =~ [^a-z0-9] ]]; then
 echo "Username hanya boleh huruf dan angka"
